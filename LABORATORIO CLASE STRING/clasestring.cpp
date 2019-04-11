@@ -49,7 +49,7 @@ String::~String ( )
 }
 
 
-//M…TODOS B¡SICOS
+//M√âTODOS B√ÅSICOS
 
 unsigned String::leng ( ) const 		// longitud constante
 {
@@ -57,7 +57,7 @@ unsigned String::leng ( ) const 		// longitud constante
    
 }
 
-int String::indice (char c) const 		// Encontrar el Ìndice de char (localizaciÛn) 
+int String::indice (char c) const 		// Encontrar el √≠ndice de char (localizaci√≥n) 
 {
     for (unsigned j=0; j < length; j++)
         if (palabra[j] == c) 
@@ -74,7 +74,7 @@ bool String::vacio()
 	else {return false;}
 }
 
-String String::substr(int indice, int leng)	//indice = de donde empieza,  leng= cuantas letras tendr· el substr
+String String::substr(int indice, int leng)	//indice = de donde empieza,  leng= cuantas letras tendr√° el substr
 {
     unsigned leng2 = leng;
     if(leng2 > this->leng()- indice){leng2=this->leng()- indice;}
