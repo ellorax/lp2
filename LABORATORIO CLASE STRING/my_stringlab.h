@@ -19,16 +19,16 @@ class String
 		
 	    ~String ( );				//Destructor
 	
-		//M…TODOS B¡SICOS
+		//M√âTODOS B√ÅSICOS
 	   	unsigned leng ( ) const;		// longitud constante
 	
-	    int indice (char c) const;		// Encontrar el Ìndice char (localizaciÛn)
+	    int indice (char c) const;		// Encontrar el √≠ndice char (localizaci√≥n)
 			
-		bool vacio();   	// si el string est· vacio retorna true sino false
+		bool vacio();   	// si el string est√° vacio retorna true sino false
 		
 		String substr(int, int);	// retorna un objeto que es el substring del objeto llamado
 		
-		//M…TODOS CASOS		
+		//M√âTODOS CASOS		
 //	    void upcase (unsigned first, unsigned last);
 //	
 //	    void downcase (unsigned first, unsigned last);
@@ -43,10 +43,10 @@ class String
 	    char& operator[] (unsigned j);			//Copia acceso
 	 	 
 	 	 
-	 	//OPERADORES DE ASIGNACI”N 
+	 	//OPERADORES DE ASIGNACI√ìN 
 	    String& operator= (const String& s);
 	
-	    //OPERADORES L”GICOS
+	    //OPERADORES L√ìGICOS
 	    friend bool operator== (const String& izq, const String& der);	//Igualdad de ambos string
 	   	  
 	    friend bool operator!= (const String& izq, const String& der);	//Diferentes 
