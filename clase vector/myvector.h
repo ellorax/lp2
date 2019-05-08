@@ -1,5 +1,5 @@
-#ifndef MATRIX_H
-#define MATRIX_H
+#ifndef MYVECTOR_H
+#define MYVECTOR_H
 #include <iostream>
 using namespace std;
 
@@ -12,11 +12,11 @@ class myvector{
 	
 	public:
 		myvector();//
-		myvector(int);// este va a ser el tamaÒo m·ximo
+		myvector(int);// este va a ser el tama√±o m√°ximo
 		myvector(const myvector&)//constructor copia
 		~myvector();
 		void push_back(int)// agrega un elemento al final del vector
-		int size();// llama al tamaÒo del vector
+		int size();// llama al tama√±o del vector
 		int operator[](int);// nos da el elemento que queremos 
 		myvector& operator=(const myvector&)//operador de asignacion
 		int look(int i);//verifica si un elemento esta en el vector
