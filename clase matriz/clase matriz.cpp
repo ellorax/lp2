@@ -73,4 +73,4 @@ class Matrix
 			}
 			return C;
 		}
-© 2019 GitHub, Inc.
+
