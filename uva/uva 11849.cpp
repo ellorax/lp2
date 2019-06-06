@@ -1,12 +1,12 @@
-// 11849 - CD
+
 #include <iostream>
 #include <set>
 using namespace std;
  
 int main ()
 {
-  int n; // number of CDs owned by Jack
-  int m; // number of CDs owned by Jill 
+  int n; 
+  int m; 
   int result;
   int temp;
    
